@@ -1,0 +1,17 @@
+extends layout
+block navBar
+    include ./partials/topMenu
+block content
+    .container-fluid
+        .row-fluid
+            .span9
+                section
+                    .page-header 
+                        h1 Login
+                    form.form-horizontal(action="/login/", method="POST", id="loginUser")
+                        p
+                            input.input-xxlarge(type="text", placeholder="Email", name="email", required="required")
+                        p
+                            input.input-xxlarge(type="password", placeholder="Password", name="password", required="required")
+                        p
+                            input.btn.btn-primary(type="submit", value="Submit")

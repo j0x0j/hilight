@@ -1,0 +1,5 @@
+h1 
+    span.inline
+        - var bigAvatar = user.thumb.replace('http:','')
+        img.profile-image(src=bigAvatar, width="60", height="60") 
+    = user.firstName + ' ' + user.lastName + ' (' + user.username + ')'

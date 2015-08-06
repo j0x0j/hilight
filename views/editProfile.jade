@@ -1,0 +1,32 @@
+extends layout
+block navBar
+    include ./partials/topMenu
+block content
+    .container-fluid
+        .row-fluid
+            include ./partials/userSideMenu
+            .span9
+                section
+                    .page-header 
+                        include ./partials/userHeader
+                    form.form-horizontal(action="/user/update/", method="POST", id="editUser")
+                        - if (!user.email) {
+
+                            p
+                                div.alert Please enter your email address
+                            
+                            script
+                                $(document).ready(function () { $('input[name=email]').focus(); });
+
+                        - }
+                        input(type="hidden", name="_id", value=user._id)
+                        p
+                            input.input-xxlarge(type="text", placeholder="Name", name="firstName", required="required", value=user.firstName)
+                        p
+                            input.input-xxlarge(type="text", placeholder="Last Name", name="lastName", required="required", value=user.lastName) 
+                        p
+                            input.input-xxlarge(type="text", placeholder="Username", name="username", required="required", value=user.username)                                               
+                        p
+                            input.input-xxlarge(type="text", placeholder="Email", name="email", required="required", value=user.email)
+                        p
+                            input.btn.btn-primary#update-user(type="submit", value="Submit")

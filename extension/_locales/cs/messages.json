@@ -1,0 +1,86 @@
+{
+  "mainCta": {
+    "message": "Přidat komentář",
+    "description": ""
+  },
+  "commentingAs": {
+    "message": "Komentování jako:",
+    "description": ""
+  },
+  "edit": {
+    "message": "editovat",
+    "description": ""
+  },
+  "commentPlaceholder": {
+    "message": "Napiš svůj komentář ...",
+    "description": ""
+  },
+  "namePlaceholder": {
+    "message": "Název",
+    "description": ""
+  },
+  "emailPlaceholder": {
+    "message": "vy@email.com",
+    "description": ""
+  },
+  "passwordPlaceholder": {
+    "message": "heslo",
+    "description": ""
+  },
+  "commentTooLong": {
+    "message": "Komentář je příliš dlouhý",
+    "description": ""
+  },
+  "weNeedContent": {
+    "message": "Potřebujeme nějaký obsah",
+    "description": ""
+  },
+  "enterCreds": {
+    "message": "Musíte zadat svůj e-mail a heslo",
+    "description": ""
+  },
+  "loginFailed": {
+    "message": "Přihlášení se nezdařilo",
+    "description": ""
+  },
+  "hi": {
+    "message": "Pozdravy ",
+    "description": ""
+  },
+  "letsGetToIt": {
+    "message": " jste připojeni :)",
+    "description": ""
+  },
+  "loggedOut": {
+    "message": "Jste odhlášeni",
+    "description": ""
+  },
+  "login": {
+    "message": "Přihlášení",
+    "description": ""
+  },
+  "logout": {
+    "message": "Odhlášení",
+    "description": ""
+  },
+  "profile": {
+    "message": "Profil",
+    "description": ""
+  },
+  "signUp": {
+    "message": "Registrovat",
+    "description": ""
+  },
+  "back": {
+    "message": "Zpátky",
+    "description": ""
+  },
+  "help": {
+    "message": "Pomoc",
+    "description": ""
+  },
+  "signUpWith": {
+    "message": "<b>Registrace</b> nebo <b>Přihlásit se</b> s:",
+    "description": ""
+  }
+}

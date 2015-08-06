@@ -1,0 +1,86 @@
+{
+  "mainCta": {
+    "message": "Προσθήκη σχολίου",
+    "description": ""
+  },
+  "commentingAs": {
+    "message": "Σχολιάζοντας ως:",
+    "description": ""
+  },
+  "edit": {
+    "message": "επεξεργαστείτε",
+    "description": ""
+  },
+  "commentPlaceholder": {
+    "message": "Γράψτε το σχόλιό σας ...",
+    "description": ""
+  },
+  "namePlaceholder": {
+    "message": "όνομα",
+    "description": ""
+  },
+  "emailPlaceholder": {
+    "message": "εσείς@email.com",
+    "description": ""
+  },
+  "passwordPlaceholder": {
+    "message": "κωδικού πρόσβασης",
+    "description": ""
+  },
+  "commentTooLong": {
+    "message": "Το σχόλιο είναι πολύ μεγάλο",
+    "description": ""
+  },
+  "weNeedContent": {
+    "message": "Χρειαζόμαστε κάποιο περιεχόμενο για αυτό",
+    "description": ""
+  },
+  "enterCreds": {
+    "message": "Θα πρέπει να εισάγετε το email και τον κωδικό σας",
+    "description": ""
+  },
+  "loginFailed": {
+    "message": "Είσοδος απέτυχε",
+    "description": ""
+  },
+  "hi": {
+    "message": "Γεια ",
+    "description": ""
+  },
+  "letsGetToIt": {
+    "message": " είστε συνδεδεμένοι :)",
+    "description": ""
+  },
+  "loggedOut": {
+    "message": "Έχετε αποσυνδεθεί",
+    "description": ""
+  },
+  "login": {
+    "message": "σύνδεση",
+    "description": ""
+  },
+  "logout": {
+    "message": "Αποσύνδεση",
+    "description": ""
+  },
+  "profile": {
+    "message": "προφίλ",
+    "description": ""
+  },
+  "signUp": {
+    "message": "Εγγραφή",
+    "description": ""
+  },
+  "back": {
+    "message": "πίσω",
+    "description": ""
+  },
+  "help": {
+    "message": "Βοήθεια",
+    "description": ""
+  },
+  "signUpWith": {
+    "message": "<b>Εγγραφείτε</b> ή <b>συνδεθείτε</b> με:",
+    "description": ""
+  }
+}

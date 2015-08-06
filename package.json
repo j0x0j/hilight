@@ -1,0 +1,47 @@
+{
+  "name": "hilight",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.x.x"
+  },
+  "subdomain": "hilight",
+  "domains": [
+    "hilight.io",
+    "www.hilight.io",
+    "api.hilight.io"
+  ],
+  "version": "0.2.0-10",
+  "private": true,
+  "dependencies": {
+    "express": "3.x.x",
+    "stylus": "*",
+    "nib": "*",
+    "jade": "0.30.0 ",
+    "mongoose": "3.4.0",
+    "mocha": "1.7.0",
+    "sendgrid": "0.2.5",
+    "moment": "2.0.0",
+    "i18n": "0.4.0",
+    "bitly": "1.2.4",
+    "passport": "0.1.16",
+    "passport-local": "0.1.6",
+    "connect-redis": "1.4.5",
+    "bcrypt": "0.7.5",
+    "ws": "~0.4.27",
+    "redis": "~0.8.4",
+    "connect-assets": "~2.5.2",
+    "hiredis": "https://github.com/arunoda/hiredis-node/archive/hard.tar.gz",
+    "passport-twitter": "~1.0.0",
+    "primus": "~1.4.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "should": "1.2.0",
+    "request": "2.11.4",
+    "factory-lady": "0.1.0",
+    "look": "0.1.3"
+  }
+}

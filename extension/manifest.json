@@ -1,0 +1,65 @@
+{
+  "name": "hilight",
+  "version": "2.2.3",
+  "manifest_version": 2,
+  "description": "Tag the web.",
+  "background": {
+    "scripts": [
+        "lib/jquery.js",
+        "lib/primus.js",
+        "lib/moment.js",
+        "lib/database.js",
+        "lib/bg-cmnt.js"
+      ]
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "images/icon19.png",
+      "38": "images/icon38.png"
+    },
+    "default_title": "hilight",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "web_accessible_resources": [
+    "images/icon48.png"
+  ],
+  "permissions": [
+    "http://localhost:5000/*",
+    "http://hilight.io/*",
+    "https://hilight.io/*",
+    "contextMenus",
+    "notifications",
+    "cookies",
+    "tabs",
+    "management"
+  ],
+  "default_locale": "en",
+  "content_scripts": [
+    {
+        "matches": ["*://*/*"],
+        "js": [
+            "lib/jquery.js",
+            "lib/jquery-ui.min.js",
+            "lib/fg-cmnt.js",
+            "lib/moment.js",
+            "lib/moment_langs/cs.js",
+            "lib/moment_langs/de.js",
+            "lib/moment_langs/el.js",
+            "lib/moment_langs/es.js",
+            "lib/moment_langs/fr.js",
+            "lib/moment_langs/ja.js",
+            "lib/moment_langs/pt.js",
+            "lib/moment_langs/ru.js",
+            "lib/moment_langs/tr.js"
+        ],
+        "css": ["css/content.css", "css/bootstrap.css"],
+        "all_frames": false,
+        "run_at": "document_end"
+    }
+  ]
+}

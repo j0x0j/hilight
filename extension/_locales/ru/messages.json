@@ -1,0 +1,86 @@
+{
+  "mainCta": {
+    "message": "Добавить комментарий",
+    "description": ""
+  },
+  "commentingAs": {
+    "message": "Комментируя, как:",
+    "description": ""
+  },
+  "edit": {
+    "message": "редактировать",
+    "description": ""
+  },
+  "commentPlaceholder": {
+    "message": "Написать комментарий ...",
+    "description": ""
+  },
+  "namePlaceholder": {
+    "message": "название",
+    "description": ""
+  },
+  "emailPlaceholder": {
+    "message": "вы@email.com",
+    "description": ""
+  },
+  "passwordPlaceholder": {
+    "message": "пароль",
+    "description": ""
+  },
+  "commentTooLong": {
+    "message": "Комментарий слишком длинный",
+    "description": ""
+  },
+  "weNeedContent": {
+    "message": "Нам нужно некоторое содержание",
+    "description": ""
+  },
+  "enterCreds": {
+    "message": "Вам необходимо ввести свой ​​логин и пароль",
+    "description": ""
+  },
+  "loginFailed": {
+    "message": "Войти не удалось",
+    "description": ""
+  },
+  "hi": {
+    "message": "привет ",
+    "description": ""
+  },
+  "letsGetToIt": {
+    "message": " Вы подключены :)",
+    "description": ""
+  },
+  "loggedOut": {
+    "message": "Вы не вошли",
+    "description": ""
+  },
+  "login": {
+    "message": "Войти",
+    "description": ""
+  },
+  "logout": {
+    "message": "Выход",
+    "description": ""
+  },
+  "profile": {
+    "message": "профиль",
+    "description": ""
+  },
+  "signUp": {
+    "message": "Зарегистрироваться",
+    "description": ""
+  },
+  "back": {
+    "message": "назад",
+    "description": ""
+  },
+  "help": {
+    "message": "помощь",
+    "description": ""
+  },
+  "signUpWith": {
+    "message": "<b>Зарегистрироваться</b> или <b>Вход с</b> помощью:",
+    "description": ""
+  }
+}

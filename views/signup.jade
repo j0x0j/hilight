@@ -1,0 +1,29 @@
+extends layout
+block navBar
+    include ./partials/topMenu
+block content
+    .container-fluid
+        .row-fluid
+            .span12
+                section
+                    .page-header 
+                        h1 Sign Up
+                    form.form-horizontal(action="/user/add/", method="POST", id="addUser")
+                        p
+                            input.btn.btn-primary.twitter-signin(onclick="window.location.href='/auth/twitter'", type="button", value="Sign up with Twitter")
+                        p
+                            h3 Or with email
+                        p
+                            input.input-xxlarge(type="text", placeholder="Name", name="firstName", required="required")
+                        p
+                            input.input-xxlarge(type="text", placeholder="Last Name", name="lastName", required="required") 
+                        p
+                            input.input-xxlarge(type="text", placeholder="Username", name="username", required="required")                                               
+                        p
+                            input.input-xxlarge(type="text", placeholder="Email", name="email", required="required")
+                        p
+                            input.input-xxlarge(type="password", id="pass", placeholder="Password", name="password", required="required")
+                        p
+                            input.input-xxlarge(type="password", id="passConf", placeholder="Password Confirmation", name="passwordConfirmation", required="required")
+                        p
+                            input.btn.btn-primary(type="submit", value="Submit")

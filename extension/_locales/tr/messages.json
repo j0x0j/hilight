@@ -1,0 +1,86 @@
+{
+  "mainCta": {
+    "message": "Yorum Ekle",
+    "description": ""
+  },
+  "commentingAs": {
+    "message": "Olarak yorum:",
+    "description": ""
+  },
+  "edit": {
+    "message": "düzenleme",
+    "description": ""
+  },
+  "commentPlaceholder": {
+    "message": "Yorumlarınızı ...",
+    "description": ""
+  },
+  "namePlaceholder": {
+    "message": "Ad",
+    "description": ""
+  },
+  "emailPlaceholder": {
+    "message": "sen@email.com",
+    "description": ""
+  },
+  "passwordPlaceholder": {
+    "message": "parola",
+    "description": ""
+  },
+  "commentTooLong": {
+    "message": "Yorum çok uzun",
+    "description": ""
+  },
+  "weNeedContent": {
+    "message": "Bazı içerik gerekir",
+    "description": ""
+  },
+  "enterCreds": {
+    "message": "E-posta ve şifrenizi girmeniz gerekir",
+    "description": ""
+  },
+  "loginFailed": {
+    "message": "oturum açma başarısız oldu",
+    "description": ""
+  },
+  "hi": {
+    "message": "Selam ",
+    "description": ""
+  },
+  "letsGetToIt": {
+    "message": " bağlandıktan :)",
+    "description": ""
+  },
+  "loggedOut": {
+    "message": "Dışarı oturum",
+    "description": ""
+  },
+  "login": {
+    "message": "Giriş",
+    "description": ""
+  },
+  "logout": {
+    "message": "Çıkış",
+    "description": ""
+  },
+  "profile": {
+    "message": "Profil",
+    "description": ""
+  },
+  "signUp": {
+    "message": "Kayıt",
+    "description": ""
+  },
+  "back": {
+    "message": "Geri",
+    "description": ""
+  },
+  "help": {
+    "message": "Yardım",
+    "description": ""
+  },
+  "signUpWith": {
+    "message": "<b>Kayıt</b> veya <b>Giriş</b> Yap:",
+    "description": ""
+  }
+}

@@ -1,0 +1,37 @@
+extends layout
+block navBar
+    include ./partials/topMenu
+block content
+    .container-fluid
+        .row-fluid
+            include ./partials/userSideMenu
+            .span9
+                section
+                    .page-header 
+                        include ./partials/userHeader
+                    - if(mentions.length > 0)
+                        h4 You were mentioned
+                        input#total(type="hidden", value=total)
+                    - else
+                        h4 You haven't been mentioned yet
+                    - mentions.forEach(function (comment) { 
+                        .box
+                            p
+                                - var avatar = comment.avatar.replace('http:','')
+                                img.avatar(src=avatar, width="20", height="20")
+                                |  
+                                = comment.username
+                                |  
+                                span.ago= comment.ago
+                            .spacer
+                                .arrow
+                            p.lead.bubble= comment.comment
+                            .fromUrl
+                                i.icon-share-alt
+                                |  
+                                a(href=comment.url, target="_blank")
+                                    = comment.url
+                    - })
+                    - if(total > 5)
+                        button.btn.btn-primary#load-more-mentions Load More ...
+                        p(style="height:10px")

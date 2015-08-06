@@ -1,0 +1,86 @@
+{
+  "mainCta": {
+    "message": "Ajouter un commentaire",
+    "description": ""
+  },
+  "commentingAs": {
+    "message": "Commentant comme:",
+    "description": ""
+  },
+  "edit": {
+    "message": "éditer",
+    "description": ""
+  },
+  "commentPlaceholder": {
+    "message": "Ecrire un commentaire ...",
+    "description": ""
+  },
+  "namePlaceholder": {
+    "message": "Nom",
+    "description": ""
+  },
+  "emailPlaceholder": {
+    "message": "vous@email.com",
+    "description": ""
+  },
+  "passwordPlaceholder": {
+    "message": "mot de passe",
+    "description": ""
+  },
+  "commentTooLong": {
+    "message": "Le commentaire est trop long",
+    "description": ""
+  },
+  "weNeedContent": {
+    "message": "Besoin contenu",
+    "description": ""
+  },
+  "enterCreds": {
+    "message": "Vous devez entrer votre email et votre mot de passe",
+    "description": ""
+  },
+  "loginFailed": {
+    "message": "Erreur d'accès",
+    "description": ""
+  },
+  "hi": {
+    "message": "Bonjour ",
+    "description": ""
+  },
+  "letsGetToIt": {
+    "message": " sont connectés :)",
+    "description": ""
+  },
+  "loggedOut": {
+    "message": "Vous êtes déconnecté",
+    "description": ""
+  },
+  "login": {
+    "message": "Connexion",
+    "description": ""
+  },
+  "logout": {
+    "message": "Déconnexion",
+    "description": ""
+  },
+  "profile": {
+    "message": "Profil",
+    "description": ""
+  },
+  "signUp": {
+    "message": "Inscrivez-vous",
+    "description": ""
+  },
+  "back": {
+    "message": "Retour",
+    "description": ""
+  },
+  "help": {
+    "message": "Aide",
+    "description": ""
+  },
+  "signUpWith": {
+    "message": "<b>Inscription</b> ou <b>Se connecter</b> avec:",
+    "description": ""
+  }
+}

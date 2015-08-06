@@ -1,0 +1,19 @@
+div(class="navbar navbar-inverse navbar-fixed-top")
+    .navbar-inner
+        .container-fluid
+            ul.nav
+                - if(typeof user !== 'undefined') {
+                    li
+                        a(href="/me/") Profile
+                    li
+                        a(href="/help/") Help
+                    li
+                        a(href="/logout/") Logout
+                - } else  {
+                    li
+                        a(href="/help/") Help
+                    li
+                        a(href="/login/") Login
+                    li
+                        a(href="/signup/") Sign Up
+                - }

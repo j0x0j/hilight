@@ -1,0 +1,86 @@
+{
+  "mainCta": {
+    "message": "Kommentar hinzufügen",
+    "description": ""
+  },
+  "commentingAs": {
+    "message": "Kommentierte wie:",
+    "description": ""
+  },
+  "edit": {
+    "message": "bearbeiten",
+    "description": ""
+  },
+  "commentPlaceholder": {
+    "message": "Schreiben Sie Ihren Kommentar ...",
+    "description": ""
+  },
+  "namePlaceholder": {
+    "message": "Name",
+    "description": ""
+  },
+  "emailPlaceholder": {
+    "message": "sie@email.com",
+    "description": ""
+  },
+  "passwordPlaceholder": {
+    "message": "kennwort",
+    "description": ""
+  },
+  "commentTooLong": {
+    "message": "Der Kommentar ist zu lang",
+    "description": ""
+  },
+  "weNeedContent": {
+    "message": "Wir müssen einige Inhalte",
+    "description": ""
+  },
+  "enterCreds": {
+    "message": "Sie müssen Ihre E-Mail und Passwort eingeben",
+    "description": ""
+  },
+  "loginFailed": {
+    "message": "Fehler bei der Anmeldung",
+    "description": ""
+  },
+  "hi": {
+    "message": "Gruß ",
+    "description": ""
+  },
+  "letsGetToIt": {
+    "message": " sie werden verbunden :)",
+    "description": ""
+  },
+  "loggedOut": {
+    "message": "Sie haben sich abgemeldet",
+    "description": ""
+  },
+  "login": {
+    "message": "Anmelden",
+    "description": ""
+  },
+  "logout": {
+    "message": "Abmelden",
+    "description": ""
+  },
+  "profile": {
+    "message": "Profil",
+    "description": ""
+  },
+  "signUp": {
+    "message": "Registrieren",
+    "description": ""
+  },
+  "back": {
+    "message": "Zurück",
+    "description": ""
+  },
+  "help": {
+    "message": "Hilfe",
+    "description": ""
+  },
+  "signUpWith": {
+    "message": "<b>Registrieren</b> oder <b>Anmelden</b> mit:",
+    "description": ""
+  }
+}

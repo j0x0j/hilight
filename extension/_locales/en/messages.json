@@ -1,0 +1,86 @@
+{
+  "mainCta": {
+    "message": "Add Comment",
+    "description": ""
+  },
+  "commentingAs": {
+    "message": "Commenting as:",
+    "description": ""
+  },
+  "edit": {
+    "message": "edit",
+    "description": ""
+  },
+  "commentPlaceholder": {
+    "message": "Write your comment ...",
+    "description": ""
+  },
+  "namePlaceholder": {
+    "message": "Name",
+    "description": ""
+  },
+  "emailPlaceholder": {
+    "message": "you@email.com",
+    "description": ""
+  },
+  "passwordPlaceholder": {
+    "message": "password",
+    "description": ""
+  },
+  "commentTooLong": {
+    "message": "The comment is too long",
+    "description": ""
+  },
+  "weNeedContent": {
+    "message": "We need some content for that",
+    "description": ""
+  },
+  "enterCreds": {
+    "message": "You need to enter your email and password",
+    "description": ""
+  },
+  "loginFailed": {
+    "message": "Login failed",
+    "description": ""
+  },
+  "hi": {
+    "message": "Hi ",
+    "description": ""
+  },
+  "letsGetToIt": {
+    "message": " lets get to it :)",
+    "description": ""
+  },
+  "loggedOut": {
+    "message": "You have logged out",
+    "description": ""
+  },
+  "login": {
+    "message": "Login",
+    "description": ""
+  },
+  "logout": {
+    "message": "Logout",
+    "description": ""
+  },
+  "profile": {
+    "message": "Profile",
+    "description": ""
+  },
+  "signUp": {
+    "message": "Sign Up",
+    "description": ""
+  },
+  "back": {
+    "message": "Back",
+    "description": ""
+  },
+  "help": {
+    "message": "Help",
+    "description": ""
+  },
+  "signUpWith": {
+    "message": "<b>Sign Up</b> or <b>Sign In</b> with:",
+    "description": ""
+  }
+}

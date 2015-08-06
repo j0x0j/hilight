@@ -1,0 +1,45 @@
+extends layout
+block navBar
+    include ./partials/topMenu
+block content
+    #cmnt-profile-authed.container-fluid(data-username=user.username, data-name=user.firstName, data-email=user.email)
+        .row-fluid
+            include ./partials/userSideMenu
+            .span9
+                section
+                    .page-header 
+                        include ./partials/userHeader
+                    .row-fluid
+                        .span3
+                            span.count#total-comments= count
+                            |  total comments
+                        .span3
+                            span.count= mentions || 0
+                            |  total mentions
+                    - if(latest.length > 0)
+                        h4 Your lastest comments
+                    - else
+                        h4 Your have no comments yet
+                    - latest.forEach(function (comment) { 
+                        .box
+                            textarea.editor(style="display:none")
+                            p.lead
+                                span.comment= comment.comment
+                                | 
+                                button.btn.btn-success.editComment(style="height: 27px;padding-top: 3px;", data-id=""+comment._id)
+                                    | Edit
+                            button.btn.btn-primary.submiter(style="display:none")
+                                | Submit
+                            | 
+                            button.btn.btn-warning.cancel(style="display:none")
+                                | Cancel
+                            p= comment.ago
+                            .fromUrl
+                                i.icon-share-alt
+                                |  
+                                a(href=comment.url, target="_blank")
+                                    = comment.url
+                    - })
+                    - if(count > 5)
+                        button.btn.btn-primary#load-more Load More ...
+                        p(style="height:10px")

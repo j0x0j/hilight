@@ -1,0 +1,86 @@
+{
+  "mainCta": {
+    "message": "コメントを追加",
+    "description": ""
+  },
+  "commentingAs": {
+    "message": "とコメント:",
+    "description": ""
+  },
+  "edit": {
+    "message": "編集",
+    "description": ""
+  },
+  "commentPlaceholder": {
+    "message": "あなたのコメントを書く ...",
+    "description": ""
+  },
+  "namePlaceholder": {
+    "message": "名前",
+    "description": ""
+  },
+  "emailPlaceholder": {
+    "message": "あなた@email.com",
+    "description": ""
+  },
+  "passwordPlaceholder": {
+    "message": "パスワード",
+    "description": ""
+  },
+  "commentTooLong": {
+    "message": "コメントが長すぎます",
+    "description": ""
+  },
+  "weNeedContent": {
+    "message": "我々はいくつかのコンテンツを必要とする",
+    "description": ""
+  },
+  "enterCreds": {
+    "message": "あなたのメールアドレスとパスワードを入力する必要が",
+    "description": ""
+  },
+  "loginFailed": {
+    "message": "ログインに失敗しました",
+    "description": ""
+  },
+  "hi": {
+    "message": "ハイ ",
+    "description": ""
+  },
+  "letsGetToIt": {
+    "message": " あなたが接続されている :)",
+    "description": ""
+  },
+  "loggedOut": {
+    "message": "あなたがログアウトした",
+    "description": ""
+  },
+  "login": {
+    "message": "ログイン",
+    "description": ""
+  },
+  "logout": {
+    "message": "ログアウト",
+    "description": ""
+  },
+  "profile": {
+    "message": "プロフィール",
+    "description": ""
+  },
+  "signUp": {
+    "message": "登録",
+    "description": ""
+  },
+  "back": {
+    "message": "バック",
+    "description": ""
+  },
+  "help": {
+    "message": "役立つ",
+    "description": ""
+  },
+  "signUpWith": {
+    "message": "<b>登録</b> または <b>サインイン</b> とともに:",
+    "description": ""
+  }
+}

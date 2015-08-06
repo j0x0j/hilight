@@ -1,0 +1,55 @@
+extends layout
+block navBar
+    include ./partials/topMenu
+block content
+    .container-fluid
+        .row-fluid
+            .span12
+                section
+                    .page-header 
+                        h2 Context
+                        p#originatorText= originator.text
+                        input#originatorUser(type="hidden", data-id="#{originator._id}", value="#{originator.username}")
+                        .fromUrl
+                            i.icon-share-alt
+                            |  
+                            a(href=originator.url, target="_blank")
+                                = originator.url
+                    section
+                        .box
+                            p
+                                - var avatar = originator.avatar.replace('http:','')
+                                img.avatar(src=avatar, width="20", height="20")
+                                |  
+                                = originator.username
+                                |  
+                                span.ago= originator.ago
+                            .spacer
+                                .arrow
+                            p.lead.bubble= originator.comment
+                        h4 Your reply
+                        form#addThreadComment(action="javascript:void(0);")
+                            input.input-xlarge#name(type="text", placeholder="Name")
+                            | 
+                            input.input-xlarge#email(type="text", placeholder="you@email.com")
+                            textarea.input-xxlarge#comment(style="width:100%;box-sizing:border-box", rows="3")
+                                = '@' + originator.username + ' '
+                            button.btn.btn-primary
+                                | Submit
+                            | 
+                            a.btn.btn-success(href="https://chrome.google.com/webstore/detail/cmnt-beta/mcpohfjefoapcddjhglhohhkgjllhbbm", target="_blank")
+                                | Get the Chrome Extension
+                    - comments.forEach(function (comment) { 
+                        - if (comment._id.toString() !== originator._id.toString())
+                            .box(data-id="#{comment._id}")
+                                p
+                                    - var avatar = comment.avatar.replace('http:','')
+                                    img.avatar(src=avatar, width="20", height="20")
+                                    |  
+                                    = comment.username
+                                    |  
+                                    span.ago= comment.ago
+                                .spacer
+                                    .arrow
+                                p.lead.bubble= comment.comment
+                    - })

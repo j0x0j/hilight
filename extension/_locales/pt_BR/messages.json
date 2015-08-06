@@ -1,0 +1,86 @@
+{
+  "mainCta": {
+    "message": "Adicionar comentário",
+    "description": ""
+  },
+  "commentingAs": {
+    "message": "Comentando como:",
+    "description": ""
+  },
+  "edit": {
+    "message": "editar",
+    "description": ""
+  },
+  "commentPlaceholder": {
+    "message": "Escreva o seu comentário ...",
+    "description": ""
+  },
+  "namePlaceholder": {
+    "message": "Nome",
+    "description": ""
+  },
+  "emailPlaceholder": {
+    "message": "você@email.com",
+    "description": ""
+  },
+  "passwordPlaceholder": {
+    "message": "senha",
+    "description": ""
+  },
+  "commentTooLong": {
+    "message": "O comentário é muito longo",
+    "description": ""
+  },
+  "weNeedContent": {
+    "message": "Precisa de conteúdo",
+    "description": ""
+  },
+  "enterCreds": {
+    "message": "Você deve digitar seu e-mail e senha",
+    "description": ""
+  },
+  "loginFailed": {
+    "message": "Erro de acesso",
+    "description": ""
+  },
+  "hi": {
+    "message": "Olá ",
+    "description": ""
+  },
+  "letsGetToIt": {
+    "message": " estão ligados :)",
+    "description": ""
+  },
+  "loggedOut": {
+    "message": "Você está desconectado",
+    "description": ""
+  },
+  "login": {
+    "message": "Login",
+    "description": ""
+  },
+  "logout": {
+    "message": "Sair",
+    "description": ""
+  },
+  "profile": {
+    "message": "Perfil",
+    "description": ""
+  },
+  "signUp": {
+    "message": "Registrar",
+    "description": ""
+  },
+  "back": {
+    "message": "De volta",
+    "description": ""
+  },
+  "help": {
+    "message": "Ajudar",
+    "description": ""
+  },
+  "signUpWith": {
+    "message": "<b>Registre-se</b> ou <b>Entrar</b> com:",
+    "description": ""
+  }
+}
